@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP3 Song Downloader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Popular Songs</a></li>
+                <li><a href="#">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="search-section">
+            <h2>Search for MP3 Songs</h2>
+            <form>
+                <input type="search" id="search-input" placeholder="Search for songs...">
+                <button id="search-button">Search</button>
+            </form>
+            <div id="search-results"></div>
+        </section>
+        <section class="popular-songs-section">
+            <h2>Popular Songs</h2>
+            <ul id="popular-songs-list">
+                <!-- popular songs will be listed here -->
+            </ul>
+        </section>
+        <section class="download-section">
+            <h2>Download MP3 Songs</h2>
+            <form>
+                <input type="text" id="song-url" placeholder="Enter song URL...">
+                <button id="download-button">Download</button>
+            </form>
+            <div id="download-status"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 MP3 Song Downloader</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
